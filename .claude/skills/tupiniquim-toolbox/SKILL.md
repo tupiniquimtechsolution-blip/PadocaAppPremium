@@ -1,31 +1,10 @@
 ---
 name: tupiniquim-toolbox
-description: Aplica padrões da Tupiniquim para segurança, qualidade, UI/UX, pesquisa, prompts e adoção segura de ferramentas.
+description: Adaptador de compatibilidade do Claude para a skill universal Tupiniquim. Use em planejamento, implementação, revisão, auditoria, segurança, UI/UX, pesquisa, prompts e escolha de ferramentas.
 ---
 
-# Tupiniquim Toolbox
-Use ao planejar, implementar, revisar ou auditar este projeto.
+# Claude Compatibility Shim
 
-## Roteamento
-UI/UX → UI UX Pro Max
-Prompts → Prompt Master
-Pesquisa/web/social → Agent Reach
-Pentest autorizado → Strix
-Software por CLI → CLI-Anything
-Agentes/RAG → Awesome LLM Apps
-Instagram → OpenReply
-TTS local → Pocket TTS
-Mídia generativa → Open Generative AI
-Inferência local experimental → kimi-k3-in-c
+A fonte canônica desta skill é `../../../.agents/skills/tupiniquim-toolbox/SKILL.md`.
 
-## Método
-1. Confirme o estado real.
-2. Consulte apenas referências relevantes.
-3. Não copie código externo cegamente; valide licença, dependências e risco.
-4. Preserve arquitetura/escopo.
-5. Aplique `.claude/CLAUDE.md`.
-6. Execute checks.
-7. Registre achados em Issues.
-8. Entregue evidências, riscos e próximo passo.
-
-Nunca exponha secrets nem teste terceiros sem autorização.
+Leia esse arquivo antes de executar a tarefa e siga também `../../../AGENTS.md`. Este shim não pode redefinir nem enfraquecer as regras canônicas.
